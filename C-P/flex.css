@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    src: url("/fonts/roboto-black.woff2") format("woff2");
+}
+
+body{
+    font-family: "Roboto", Verdana, sans-serif;
+    margin: 0;
+    background-color: #222; 
+    
+}
+
+footer{
+    flex: 0 0;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+
+.header-img{
+    height: 330px;
+    width: 1700px;
+    background-image: url(/img/zap.jpeg);
+    background-size: cover;
+    margin: 5px auto 5px auto;
+    border-radius: 7px;
+    padding: 0;
+}
+
+.navbar{
+    display: flex; 
+    background: black;
+    color: white;
+    font-size: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+    height: 52px;
+}
+
+.navbar-item{
+    font-size: 26px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.gamb-icon{
+    padding-top: 13px;
+    padding-left: 10px;
+    
+}
+
+.gamb-icon-line{
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 25px;
+    margin: 5px;
+    padding: 0;
+    border-radius: 2px ;
+}
+
+.link-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+.curator-nks:hover,
+.jurnal:hover,
+.my-grup:hover,
+.about-me:hover,
+.gamb-icon:hover
+{
+    transform: scale(1.1);
+}
+
+.contact-space{
+    display: flex;
+    min-height: calc(100vh - 52px - 330px);
+}
+
+.subject{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    border-radius: 7px;
+    max-width: 300px;
+    flex-grow: 1;
+    justify-content: space-between;
+ }
+
+ .list-subject{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .response-space-subject{
+    display: flex;
+    flex-grow: 3;
+    background-color: black;
+    margin: 5px;
+    border-radius: 7px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+ }
+
+ .subject-item{
+    align-self: center;
+ }
